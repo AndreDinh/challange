@@ -8,50 +8,56 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-        <link href="main.css" type="text/css" rel="stylesheet"/>
-    <main>
-      <header>
-      <section class="logo">
-        <img src="challenge/logo.png"></a>
-        <h1>Delicious</h1>
-        <h2>THE BEST FOOD BLOG ON THE WEB</h2>
-      </section>
-      <nav>
-        <section class="logo"></section>
+    <link href="default.css" type="text/css" rel="default"/>
+    <link href="main.css" type="text/css" rel="stylesheet"/>
+        <main>
+      <header class="clearfix"><img src="challenge/logo.png" class="logo"></a>
+        <section class="logo">
+          <h1>Delicious</h1>
+          <h2>THE BEST FOOD BLOG ON THE WEB</h2>
+        </section>
         <section class="border"></section>
-        <ul class="social media">
-          <li class="logo">
-            <a href= "index.html">
-          </li>
-          <li>
-            <a href="challenge/fb-icon.png"><img src="challenge/fb-icon.png">
-          </li>
-          <li>
-            <a href="challenge/twit-icon.png"><img src="challenge/twit-icon.png"></a>
-          </li>
-          <li>
-            <a href="challenge/gp-con.png"><img src="challenge/gp-icon.png"></a>
-          </li>
-          <li>
-            <a href="challenge/flic.png"><img src="challenge/flic-icon.png"></a>
-          </li>
-          <li>
-            <a href="challenge/pint-icon.png"><img src="challenge/pint-icon.png"></a>
-          </li>
-          <li>
-            <a href="challenge/rss-icon.png"><img src="challenge/rss-icon.png"></a>
-          </li>
-          <li>
-            <a href="challenge/mail-icon.png"><img src="challenge/mail-icon.png"></a>
-          </li>
-        </ul>
-      </nav>
+        <section>
+          <nav>
+            <ul class="socialMedia">
+              <li class="logo">
+                <a href= "index.html">
+              </li>
+              <li>
+                <a href="challenge/fb-icon.png"><img src="challenge/fb-icon.png">
+              </li>
+              <li>
+                <a href="challenge/twit-icon.png"><img src="challenge/twit-icon.png"></a>
+              </li>
+              <li>
+                <a href="challenge/gp-con.png"><img src="challenge/gp-icon.png"></a>
+              </li>
+              <li>
+                <a href="challenge/flic.png"><img src="challenge/flic-icon.png"></a>
+              </li>
+              <li>
+                <a href="challenge/pint-icon.png"><img src="challenge/pint-icon.png"></a>
+              </li>
+              <li>
+                <a href="challenge/rss-icon.png"><img src="challenge/rss-icon.png"></a>
+              </li>
+              <li>
+                <a href="challenge/mail-icon.png"><img src="challenge/mail-icon.png"></a>
+              </li>
+            </ul>
+          </nav>
+      </section>
     </header>
       <section class="titlehead">
         <h3>Chocolate Pizza</h3>
         <h5>Posted on 15 Dec 2013 / Desserts</h5>
-        <img class="print" src="challenge/print-icon.png"/>
-        <section class="chocolateCake"><img src="challenge/choco-pizza.png"></section>
+        <section class="print">
+          <img src="challenge/print-icon.png"/>
+          <p>PRINT</p>
+        </section>
+        <section class="chocolateCake">
+          <img src="challenge/choco-pizza.png">
+        </section>
       </section>
       <section>
         <article>
@@ -60,16 +66,19 @@
           <p>Using an ice cream machine, pour liquids into the frozen basen and process according to manufacturer instructions, i.e., let spin and thinken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
         </article>
       </section>
-      <section>
-        <ul class="ingredients">
-          <li><input type="checkbox"><span>1 1/2 cups of milk</span></li>
-          <li><input type="checkbox"><span>1/2 cup mascarpone</span></li>
-          <li><input type="checkbox"><span>1/2 tsp pink salt</span></li>
-          <li><input type="checkbox"><span>1 lb Black Mission Figs</span></li>
-          <li><input type="checkbox"><span>1/2 cup brown sugar</span></li>
-          <li><input type="checkbox"><span>2-4 tbsp water</span></li>
+      <section class="ingredients">
+        <ul >
+          <li><input type="checkbox">1 1/2 cups of milk</li>
+          <li><input type="checkbox">1/2 cup mascarpone</li>
+          <li><input type="checkbox">1/2 tsp pink salt</li>
+          <li><input type="checkbox">1 lb Black Mission Figs</li>
+          <li><input type="checkbox">1/2 cup brown sugar</li>
+          <li><input type="checkbox">2-4 tbsp water</li>
+        </ul>
+        <ul>
           <li><input type="checkbox">1 1/2 cups heavy cream</li>
-          <li><input type="checkbox">4/3 granulated sugar</li>
+          <li><input type="checkbox" checked="true"><s>1 1/2 cups heavy cream</s></li>
+          <li><input type="checkbox" checked="true"><s>4/3 granulated sugar</s></li>
           <li><input type="checkbox">2 egg yolks</li>
           <li><input type="checkbox">1 lemon,huiced</li>
           <li><input type="checkbox">2 tbsp butter</li>
@@ -78,17 +87,17 @@
       </section>
       <section class="border"></section>
       <section class="author">
-        <aside><img src="challenge/van-pic.png"></a></aside>
+        <aside class="van"><img src="challenge/van-pic.png"></a></aside>
         <p>Vanessa Stevenson</p>
         <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
-        <aside>share recipe</aside>
+        <section class="shareButton"><aside>share recipe</aside></section>
       </section>
       <footer>
-      <object><img src="challenge/small-logo.png" class="logo"></object>
-      <ul>
-        <li>Delicious &copy 2014 - All Rights Reserved</li>
-        <li>Proudly published with Ghost.</li>
-      </ul>
+        <section><img src="challenge/small-logo.png" class="smallLogo"></section>
+        <ul>
+          <li>Delicious &copy; 2014 - All Rights Reserved</li>
+          <li>Proudly published with Ghost.</li>
+        </ul>
       </footer>
     </main>
   </body>
