@@ -1,5 +1,6 @@
 
 /*nav*/
+
 h1{
   font-family: 'Driod Serif';
   font-size: 35px;
@@ -63,6 +64,7 @@ nav ul{
   float: center;
 
 }
+
 /*main*/
 
 .print{
@@ -103,6 +105,7 @@ article{
 
 
 /*footer*/
+
 .author{
 }
 .van{
@@ -114,7 +117,6 @@ article{
   margin: auto;
   background-image: url(challenge/border-bot.png);
   background-repeat: repeat-x;
-  /*float: center;*/
 
 }
 .smallLogo{
