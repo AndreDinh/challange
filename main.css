@@ -1,22 +1,30 @@
-
 /*nav*/
-
-h1{
+header {
+  border-image: url(challenge/hr-bg.png) 0 0 13 0 repeat;
+  border-bottom-width: 13px;
+}
+.logo h1{
+  margin: 0px;
   font-family: 'Driod Serif';
   font-size: 35px;
-  margin-bottom: 100px;
-  float: left;
+  margin-right:
+
 }
-h2{
-  float: left;
+.logo h2{
   font-size: 10px;
+  margin: 3px;
+  color: grey;
 }
 
-.logo{
-  margin-right: 7px;
+.logo {
   float: left;
-  overflow: hidden;
+  width: 300px;
 }
+.logo img {
+  float: left;
+  margin-right: 8px;
+}
+
 h3{
   font-family: "Oswal";
   font-size: 42px;
@@ -26,9 +34,9 @@ h3{
 }
 h2 h5{
   font-size: 10px;
-
 }
 h5{
+  margin-top: 0px;
   color: grey;
 }
 .socialMedia{
@@ -46,51 +54,41 @@ ul
   content: "\2610";
   margin-right:5px;
 }
-.logo {
-  font-size: 15px;
-}
-img.logo{
-  overflow: hidden;
-}
-nav ul{
-}
-
-.border{
-  width: 900px;
-  height: 50px;
-  margin: auto;
-  background-image: url(challenge/hr-bg.png);
-  background-repeat: repeat-x;
-  float: center;
-
-}
 
 /*main*/
 
 .print{
   float: right;
   margin-bottom: -25px;
+  clear: right;
 }
 .print p{
-  text-align: right;
+  float: right;
   color: grey;
   font-size: 11px;
+  clear: left;
+  margin: 0;
 }
-
+article p{
+  text-indent: 30px;
+}
 .titlehead{
   font-size: 15px;
-  text-align: left;
+ /* float: left;
+ /*clear: left;**/
 }
 article{
   font-family: 'FrankRuehl', sans-serif;
   font-size: 20px;
 }
+.logo img{
+  margin: 5px;
+}
 
 .ingredients ul{
   list-style-type: none;
-  margin: 0;
+  margin: 5px;
   padding: 0;
-
   display: inline-block;
   *display: inline;
   zoom: 1
@@ -105,31 +103,32 @@ article{
 
 
 /*footer*/
+footer{
+  border-image: url(challenge/hr-bg.png) 13 0 0 0 repeat;
+  border-top-width: 13px;
+}
 
 .author{
 }
 .van{
   float: left;
+  clear: both;
 }
-.border-bot{
-  width: 900px;
-  height: 50px;
-  margin: auto;
-  background-image: url(challenge/border-bot.png);
-  background-repeat: repeat-x;
 
-}
 .smallLogo{
+  border-bottom:1px solid #313030;
   text-align: center;
 }
 
 .shareButton{
+  margin-top: 15px;
   width: 100px;
   color: #ffffff;
   font-size: 20px;
   background: #DB9370;
   padding: 10px 20px 10px 20px;
   float: right;
+  clear: both;
 }
 .clearfix:after {
      visibility: hidden;
