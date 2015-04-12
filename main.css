@@ -7,13 +7,14 @@ header {
   margin: 0px;
   font-family: 'Driod Serif';
   font-size: 35px;
-  margin-right:
+  margin-bottom: -5px;
 
 }
 .logo h2{
   font-size: 10px;
-  margin: 3px;
+  margin: 0px;
   color: grey;
+  font-family: 'Agency FB';
 }
 
 .logo {
@@ -50,10 +51,6 @@ ul
 {
     list-style-type: none;
 }
-.ingredients : li{
-  content: "\2610";
-  margin-right:5px;
-}
 
 /*main*/
 
@@ -74,8 +71,6 @@ article p{
 }
 .titlehead{
   font-size: 15px;
- /* float: left;
- /*clear: left;**/
 }
 article{
   font-family: 'FrankRuehl', sans-serif;
@@ -86,13 +81,11 @@ article{
 }
 
 .ingredients ul{
-  list-style-type: none;
   margin: 5px;
-  padding: 0;
-  display: inline-block;
-  *display: inline;
-  zoom: 1
-
+  /*padding: 0;*/
+  /*display: inline-block;
+*//*  *display: inline;*/
+  zoom: 1;
 }
 .ingredients{
   font-size: 28px;
@@ -117,6 +110,11 @@ footer{
 .smallLogo{
   border-bottom:1px solid #313030;
   text-align: center;
+  display: block;
+  margin: 0px auto;
+  border-width: 500px;
+  border-bottom: 2px;
+  border-color: gray;
 }
 
 .shareButton{
@@ -129,6 +127,10 @@ footer{
   float: right;
   clear: both;
 }
+footer ul{
+  text-align: center;
+}
+
 .clearfix:after {
      visibility: hidden;
      display: block;
