@@ -1,0 +1,146 @@
+/*nav*/
+header {
+  border-image: url(challenge/hr-bg.png) 0 0 13 0 repeat;
+  border-bottom-width: 13px;
+}
+.logo h1{
+  margin: 0px;
+  font-family: 'Driod Serif';
+  font-size: 35px;
+  margin-bottom: -5px;
+
+}
+.logo h2{
+  font-size: 10px;
+  margin: 0px;
+  color: grey;
+  font-family: 'Agency FB';
+}
+
+.logo {
+  float: left;
+  width: 300px;
+}
+.logo img {
+  float: left;
+  margin-right: 8px;
+}
+
+h3{
+  font-family: "Oswal";
+  font-size: 42px;
+  font-style: bold;
+  margin: 0px;
+  padding: 0px;
+}
+h2 h5{
+  font-size: 10px;
+}
+h5{
+  margin-top: 0px;
+  color: grey;
+}
+.socialMedia{
+  list-style:none;
+  text-align: right;
+}
+.socialMedia li {
+  display: inline-block;
+}
+ul
+{
+    list-style-type: none;
+}
+
+/*main*/
+
+.print{
+  float: right;
+  margin-bottom: -25px;
+  clear: right;
+}
+.print p{
+  float: right;
+  color: grey;
+  font-size: 11px;
+  clear: left;
+  margin: 0;
+}
+article p{
+  text-indent: 30px;
+}
+.titlehead{
+  font-size: 15px;
+}
+article{
+  font-family: 'FrankRuehl', sans-serif;
+  font-size: 20px;
+}
+.logo img{
+  margin: 5px;
+}
+
+.ingredients ul{
+  margin: 5px;
+  /*padding: 0;*/
+  /*display: inline-block;
+*//*  *display: inline;*/
+  zoom: 1;
+}
+.ingredients{
+  font-size: 28px;
+  width: 900px;
+  height: 300px;
+  background-image: url(challenge/list-bg.png);
+}
+
+/*footer*/
+footer{
+  border-image: url(challenge/hr-bg.png) 13 0 0 0 repeat;
+  border-top-width: 13px;
+}
+
+.author{
+}
+.van{
+  float: left;
+  clear: both;
+}
+
+.smallLogo{
+  border-bottom:1px solid #313030;
+  text-align: center;
+  display: block;
+  margin: 0px auto;
+  border-width: 500px;
+  border-bottom: 2px;
+  border-color: gray;
+}
+
+.shareButton{
+  margin-top: 15px;
+  width: 100px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #DB9370;
+  padding: 10px 20px 10px 20px;
+  float: right;
+  clear: both;
+}
+footer ul{
+  text-align: center;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
