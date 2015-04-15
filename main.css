@@ -1,5 +1,7 @@
 /*nav*/
 header {
+  display: flex;
+  justify-content: space-between;
   border-image: url(challenge/hr-bg.png) 0 0 13 0 repeat;
   border-bottom-width: 13px;
 }
@@ -7,7 +9,9 @@ header {
   margin: 0px;
   font-family: 'Driod Serif';
   font-size: 35px;
-  margin-bottom: -5px;
+/*  margin-bottom: -5px;*/
+  display: flex;
+  flex-direction: row;
 
 }
 .logo h2{
@@ -18,12 +22,12 @@ header {
 }
 
 .logo {
-  float: left;
   width: 300px;
 }
 .logo img {
   float: left;
   margin-right: 8px;
+  clear: left;
 }
 
 h3{
@@ -41,6 +45,8 @@ h5{
   color: grey;
 }
 .socialMedia{
+  display: flex;
+  justify-content: flex-end;
   list-style:none;
   text-align: right;
 }
@@ -68,6 +74,8 @@ ul
 }
 
 article p{
+  display:flex;
+  flex-direction: row;
   text-indent: 30px;
 }
 .titlehead{
@@ -87,6 +95,7 @@ article{
 }
 
 .ingredients table{
+
   border-collapse: separate;
   font-size: 26px;
   width: 900px;
@@ -109,21 +118,30 @@ footer{
 }
 
 .author{
+  align-content: flex-start;
+  margin-right: 15px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.authorName{
+  font: bold;
+  font-size: 20px;
 }
 .van{
-  float: left;
-  clear: both;
+  margin: 20px;
 }
 .about{
-  margin: -30px -3px;
-  float: left;
-  padding: 20px;
+  /*margin: -30px -3px;*/
+  /*float: left;*/
+  /*padding: 20px;*/
 }
 .smallLogo{
   text-align: center;
   display: block;
   margin: 0px auto;
-  margin-top: -18px;
+  /*margin-top: -18px;*/
   background-color: white;
   padding:0 10px 0 10px;
 }
@@ -134,7 +152,7 @@ footer{
 .shareButton{
   text-align: center;
   font-style: 'Agency FB';
-  margin: 15px 0;
+  margin: 15px 50px;
   width: 185px;
   height: 25px;
   color: #ffffff;
@@ -142,7 +160,7 @@ footer{
   background: #DB9370;
   padding: 10px 25px 15px 25px;
   float: right;
-  clear: both;
+  /*clear: both;*/
 }
 footer ul{
   margin: 25px;
