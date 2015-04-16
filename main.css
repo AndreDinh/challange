@@ -1,50 +1,56 @@
+@import url('http://fonts.googleapis.com/css?family=Yellowtail');
+@import url('http://fonts.googleapis.com/css?family=Oswald:b');
+@import url('http://fonts.googleapis.com/css?family=Oswald');
+@import url('http://fonts.googleapis.com/css?family=Abel');
+@import url('http://fonts.googleapis.com/css?family=Patrick+Hand');
+@import url('http://fonts.googleapis.com/css?family=Droid+Serif');
+
 /*nav*/
+
 header {
   display: flex;
   justify-content: space-between;
   border-image: url(challenge/hr-bg.png) 0 0 13 0 repeat;
   border-bottom-width: 13px;
 }
-.logo h1{
+.logo h1 {
   margin: 0px;
-  font-family: 'Driod Serif';
+  margin-top: 1px;
+  margin-bottom: -10px;
+  font-family: 'Driod Serif',cursive;
   font-size: 35px;
-/*  margin-bottom: -5px;*/
   display: flex;
   flex-direction: row;
-
 }
-.logo h2{
+.logo h2 {
   font-size: 10px;
   margin: 0px;
   color: grey;
   font-family: 'Abel';
+  margin-bottom: 20px;
 }
-
 .logo {
   width: 300px;
 }
 .logo img {
   float: left;
-  margin-right: 8px;
   clear: left;
 }
-
-h3{
-  font-family: "Oswal";
+h3 {
+  font-family: "Oswal",bold;
   font-size: 42px;
-  font-style: bold;
   margin: 0px;
-  padding: 50px 0 0 0;
-}
-h2 h5{
-  font-size: 10px;
+  padding: 25px 0 0 0;
 }
 h5{
+  font-family: 'Abel';
   margin-top: 0px;
   color: grey;
 }
-.socialMedia{
+.socialMedia li:nth-child(6) {
+  margin-left: 10px;
+}
+.socialMedia {
   display: flex;
   justify-content: flex-end;
   list-style:none;
@@ -55,119 +61,114 @@ h5{
 }
 ul
 {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 /*main*/
 
-.print{
+.print {
   float: right;
-  margin-bottom: -25px;
+  margin-bottom: -20px;
   clear: right;
 }
-.print p{
+.print p {
   float: right;
   color: grey;
-  font-size: 11px;
+  font-size: 15px;
   clear: left;
   margin: 0;
 }
-
-article p{
+article p {
   display:flex;
   flex-direction: row;
   text-indent: 30px;
 }
-.titlehead{
+.titlehead {
   font-size: 15px;
 }
-article{
+article {
   font-family: 'Droid serif';
   font-size: 20px;
 }
-.logo img{
+.logo img {
   margin: 5px;
 }
 
-.ingredients ul{
+.ingredients ul {
   margin: 25px;
   zoom: 1;
 }
 
-.ingredients table{
-
+.ingredients table {
   border-collapse: separate;
   font-size: 26px;
   width: 900px;
   background-image: url(challenge/list-bg.png);
 }
-.ingredients{
+.ingredients {
+  margin-bottom: 40px;
   font-family: 'Patrick Hand';
+  color: #360202;
 }
-.chocolateCake{
+.chocolateCake {
   padding-top: 25px;
-  width: 960px;
-
 }
-
 
 /*footer*/
-footer{
+
+footer {
   border-image: url(challenge/hr-bg.png) 13 0 0 0 repeat;
   border-top-width: 13px;
 }
 
-.author{
+.author {
   align-content: flex-start;
   margin-right: 15px;
   display:flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+  flex-direction:row;
+  justify-content:space-between;
 }
-.authorName{
+.authorName {
   font: bold;
   font-size: 20px;
+  margin-top: 5px;
 }
-.van{
+.authorAbout{
+  margin-top: -20px;
+}
+.van {
   margin: 20px;
 }
-.about{
-  /*margin: -30px -3px;*/
-  /*float: left;*/
-  /*padding: 20px;*/
+.about {
+  margin-bottom: -5px;
+  padding-right:105px;
 }
-.smallLogo{
+.smallLogo {
   text-align: center;
   display: block;
   margin: 0px auto;
-  /*margin-top: -18px;*/
+  margin-top: -18px;
   background-color: white;
   padding:0 10px 0 10px;
 }
-.pageFooter{
+.pageFooter {
   border-top: 1px solid gray;
 }
-
-.shareButton{
+.shareButton {
   text-align: center;
-  font-style: 'Agency FB';
-  margin: 15px 50px;
-  width: 185px;
+  font-family: 'Agency FB';
   height: 25px;
   color: #ffffff;
   font-size: 20px;
   background: #DB9370;
   padding: 10px 25px 15px 25px;
-  float: right;
-  /*clear: both;*/
 }
-footer ul{
+footer ul {
   margin: 25px;
   text-align: center;
   color: gray;
 }
-.pageContainer{
+.pageContainer {
   max-width: 960px;
   margin: 0 auto;
 }
