@@ -1,0 +1,264 @@
+
+/*  SECTIONS  ============================================================================= */
+
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*  GROUPING  ============================================================================= */
+
+
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*  GRID COLUMN SETUP   ==================================================================== */
+
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+  .col {
+    margin: 1% 0 1% 0%;
+  }
+}
+/*  GRID OF TWELVE   ============================================================================= */
+
+.span_12_of_12 {
+  width: 100%;
+}
+
+.span_11_of_12 {
+  width: 91.53%;
+}
+
+.span_10_of_12 {
+  width: 83.06%;
+}
+
+.span_9_of_12 {
+  width: 74.6%;
+}
+
+.span_8_of_12 {
+  width: 66.13%;
+}
+
+.span_7_of_12 {
+  width: 57.66%;
+}
+
+.span_6_of_12 {
+  width: 49.2%;
+}
+
+.span_5_of_12 {
+  width: 40.73%;
+}
+
+.span_4_of_12 {
+  width: 32.26%;
+}
+
+.span_3_of_12 {
+  width: 23.8%;
+}
+
+.span_2_of_12 {
+  width: 15.33%;
+}
+
+.span_1_of_12 {
+  width: 6.86%;
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+  .span_12_of_12 {
+    width: 100%;
+  }
+  .span_11_of_12 {
+    width: 100%;
+  }
+  .span_10_of_12 {
+    width: 100%;
+  }
+  .span_9_of_12 {
+    width: 100%;
+  }
+  .span_8_of_12 {
+    width: 100%;
+  }
+  .span_7_of_12 {
+    width: 100%;
+  }
+  .span_6_of_12 {
+    width: 100%;
+  }
+  .span_5_of_12 {
+    width: 100%;
+  }
+  .span_4_of_12 {
+    width: 100%;
+  }
+  .span_3_of_12 {
+    width: 100%;
+  }
+  .span_2_of_12 {
+    width: 100%;
+  }
+  .span_1_of_12 {
+    width: 100%;
+  }
+}
+header{
+  border-image: url(challenge/hr-bg.png) 0 0 13 0 repeat;
+  border-bottom-width: 13px;
+}
+logo h1{
+  margin: 0px;
+  margin-top: 1px;
+  margin-bottom: -10px;
+}
+logo h2{
+  font-size: 10px;
+  margin: 0px;
+  color: grey;
+  font-family: 'Abel';
+  margin-bottom: 20px;
+}
+.logo {
+  width: 300px;
+}
+h3 {
+  font-family: "Oswal",bold;
+  font-size: 42px;
+  margin: 0px;
+}
+h5 {
+  font-family: 'Abel';
+  margin-top: 0px;
+  color: grey;
+}
+ul{
+  list-style-type: none;
+}
+.print {
+  margin-bottom: -20px;
+}
+.print p {
+  color: grey;
+  font-size: 15px;
+  margin: 0;
+}
+article p {
+  text-indent: 30px;
+}
+.titlehead {
+  font-size: 15px;
+}
+article {
+  font-family: 'Droid serif';
+  font-size: 20px;
+}
+.logo img {
+  margin: 5px;
+}
+.ingredients ul {
+  margin: 25px;
+  zoom: 1;
+}
+.ingredients table {
+  border-collapse: separate;
+  font-size: 26px;
+  width: 900px;
+  background-image: url(challenge/list-bg.png);
+}
+.ingredients {
+  margin-bottom: 40px;
+  font-family: 'Patrick Hand';
+  color: #360202;
+}
+.chocolateCake {
+  widows: 100%;
+}
+footer {
+  border-image: url(challenge/hr-bg.png) 13 0 0 0 repeat;
+  border-top-width: 13px;
+}
+.author {
+  margin-right: 15px;
+}
+.authorName {
+  font: bold;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.authorAbout{
+  margin-top: -20px;
+}
+.van {
+  margin: 20px;
+}
+.about {
+  margin-bottom: -5px;
+}
+.smallLogo{
+  margin: 0px auto;
+  margin-top: -18px;
+  background-color: white;
+
+}
+.pageFooter {
+  border-top: 1px solid gray;
+}
+.shareButton {
+  text-align: center;
+  font-family: 'Agency FB';
+  height: 25px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #DB9370;
+}
+footer ul {
+  margin: 25px;
+  text-align: center;
+  color: gray;
+}
+.pageContainer {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */

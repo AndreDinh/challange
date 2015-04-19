@@ -1,0 +1,70 @@
+@import url('http://fonts.googleapis.com/css?family=Yellowtail');
+@import url('http://fonts.googleapis.com/css?family=Oswald:b');
+@import url('http://fonts.googleapis.com/css?family=Oswald');
+@import url('http://fonts.googleapis.com/css?family=Abel');
+@import url('http://fonts.googleapis.com/css?family=Patrick+Hand');
+@import url('http://fonts.googleapis.com/css?family=Droid+Serif');
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo h1 {
+  font-family: 'Driod Serif',cursive;
+  font-size: 35px;
+  display: flex;
+  flex-direction: row;
+}
+.logo img {
+  float: left;
+  clear: left;
+}
+.cocolateCake{
+  padding-top: 25px;
+}
+h3 {
+  padding: 25px 0 0 0;
+}
+.socialMedia li:nth-child(6) {
+  margin-left: 10px;
+}
+socialMedia {
+  display: flex;
+  justify-content: flex-end;
+  list-style:none;
+  text-align: right;
+}
+.socialMedia li {
+  display: inline-block;
+}
+.print {
+  float: right;
+  clear: right;
+}
+.print p {
+  float: right;
+  clear: left;
+}
+article p {
+  display:flex;
+  flex-direction: row;
+}
+.author {
+  align-content: flex-start;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+.about{
+  padding-right:105px;
+}
+.smallLogo {
+  text-align: center;
+  display: block;
+  padding:0 10px 0 10px;
+}
+.shareButton {
+  padding: 10px 25px 15px 25px;
+
+}
+
