@@ -200,7 +200,6 @@ article {
   color: #360202;
 }
 .chocolateCake {
-  padding-top: 25px;
   widows: 100%;
 }
 footer {
@@ -223,13 +222,12 @@ footer {
 }
 .about {
   margin-bottom: -5px;
-  padding-right:105px;
 }
 .smallLogo{
   margin: 0px auto;
   margin-top: -18px;
   background-color: white;
-  padding:0 10px 0 10px;
+
 }
 .pageFooter {
   border-top: 1px solid gray;
@@ -241,7 +239,6 @@ footer {
   color: #ffffff;
   font-size: 20px;
   background: #DB9370;
-  padding: 10px 25px 15px 25px;
 }
 footer ul {
   margin: 25px;

@@ -19,6 +19,9 @@ header {
   float: left;
   clear: left;
 }
+.cocolateCake{
+  padding-top: 25px;
+}
 h3 {
   padding: 25px 0 0 0;
 }
@@ -52,9 +55,16 @@ article p {
   flex-direction:row;
   justify-content:space-between;
 }
+.about{
+  padding-right:105px;
+}
 .smallLogo {
   text-align: center;
   display: block;
+  padding:0 10px 0 10px;
 }
+.shareButton {
+  padding: 10px 25px 15px 25px;
 
+}
 
