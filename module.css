@@ -6,7 +6,7 @@ header{
   border-bottom-width: 13px;
 }
 .logo h1 {
-  font-family: 'Droid Serif',cursive;
+  font-family: 'Lobster',cursive;
   font-size: 35px;
   display: flex;
   flex-direction: row;
@@ -47,7 +47,7 @@ header{
 .print {
   float: right;
   clear: right;
-  margin-top: 130px;
+  margin-top: 100px;
 }
 .print p {
   float: right;

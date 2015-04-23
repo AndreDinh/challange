@@ -1,9 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Yellowtail');
-@import url('http://fonts.googleapis.com/css?family=Oswald:b');
-@import url('http://fonts.googleapis.com/css?family=Oswald');
-@import url('http://fonts.googleapis.com/css?family=Abel');
-@import url('http://fonts.googleapis.com/css?family=Patrick+Hand');
-@import url('http://fonts.googleapis.com/css?family=Droid+Serif');
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -46,7 +41,7 @@ table {
 /*personal styles*/
 
 h3 {
-  font-family: "Oswal",bold;
+  font-family: "Oswald",bold;
   font-size: 42px;
   margin: 0px;
 }
@@ -64,4 +59,8 @@ article p {
 article {
   font-family: 'Droid serif';
   font-size: 20px;
+}
+.chocolateCake img{
+  width: 100%;
+  max-width: 100%;
 }
