@@ -1,16 +1,12 @@
-@import url('http://fonts.googleapis.com/css?family=Yellowtail');
-@import url('http://fonts.googleapis.com/css?family=Oswald:b');
-@import url('http://fonts.googleapis.com/css?family=Oswald');
-@import url('http://fonts.googleapis.com/css?family=Abel');
-@import url('http://fonts.googleapis.com/css?family=Patrick+Hand');
-@import url('http://fonts.googleapis.com/css?family=Droid+Serif');
 
-header {
-  display: flex;
-  justify-content: space-between;
+/*header*/
+
+header{
+  border-image: url(challenge/hr-bg.png) 0 0 13 0 repeat;
+  border-bottom-width: 13px;
 }
 .logo h1 {
-  font-family: 'Driod Serif',cursive;
+  font-family: 'Droid Serif',cursive;
   font-size: 35px;
   display: flex;
   flex-direction: row;
@@ -18,53 +14,116 @@ header {
 .logo img {
   float: left;
   clear: left;
+  margin:5px;
 }
-.cocolateCake{
-  padding-top: 25px;
+.logo h1{
+  margin: 0px;
+  margin-top: 1px;
 }
-h3 {
-  padding: 25px 0 0 0;
+.logo h2{
+  font-size: 10px;
+  margin: 0px;
+  color: grey;
+  font-family: 'Abel';
+  margin-bottom: 20px;
 }
+
 .socialMedia li:nth-child(6) {
   margin-left: 10px;
 }
-socialMedia {
-  display: flex;
-  justify-content: flex-end;
-  list-style:none;
-  text-align: right;
+.socialMedia {
+  float: right;
 }
 .socialMedia li {
   display: inline-block;
 }
+
+/*main Body*/
+
+.titlehead {
+  font-size: 15px;
+  padding: 25px 0 0 0;
+}
 .print {
   float: right;
   clear: right;
+  margin-top: 130px;
 }
 .print p {
   float: right;
   clear: left;
 }
-article p {
-  display:flex;
-  flex-direction: row;
+
+.print p {
+  color: grey;
+  font-size: 15px;
+  margin: 0;
+}
+
+.ingredients ul {
+  margin: 15px;
+  margin-top: 5px;
+  zoom: 1;
+}
+.ingredients {
+  font-size: 26px;
+  width: 900px;
+  background-image: url(challenge/list-bg.png);
+  background-repeat: no-repeat;
+}
+.ingredients {
+  margin-bottom: 40px;
+  font-family: 'Patrick Hand';
+  color: #360202;
+}
+
+/*footer*/
+footer {
+  border-image: url(challenge/hr-bg.png) 13 0 0 0 repeat;
+  border-top-width: 13px;
 }
 .author {
-  align-content: flex-start;
-  display:flex;
-  flex-direction:row;
-  justify-content:space-between;
+  margin-right: 15px;
+}
+.authorName {
+  font: bold;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.van {
+  margin: 20px;
 }
 .about{
   padding-right:105px;
-}
-.smallLogo {
-  text-align: center;
-  display: block;
-  padding:0 10px 0 10px;
+  margin-bottom: -5px;
 }
 .shareButton {
+  text-align: center;
+  font-family: 'Agency FB';
+  height: 25px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #DB9370;
   padding: 10px 25px 15px 25px;
-
 }
+.smallLogo {
+  display: block;
+  padding:0 10px 0 10px;
+  margin: 0px auto;
+  margin-top: -18px;
+  background-color: white;
+}
+
+.pageFooter {
+  border-top: 1px solid gray;
+  text-align: center;
+  color: gray;
+}
+.pageFooter p:first-of-type{
+  margin-top: 10px;
+}
+.pageFooter p:last-of-type{
+  margin-bottom: 10px;
+}
+
 

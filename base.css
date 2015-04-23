@@ -1,3 +1,9 @@
+@import url('http://fonts.googleapis.com/css?family=Yellowtail');
+@import url('http://fonts.googleapis.com/css?family=Oswald:b');
+@import url('http://fonts.googleapis.com/css?family=Oswald');
+@import url('http://fonts.googleapis.com/css?family=Abel');
+@import url('http://fonts.googleapis.com/css?family=Patrick+Hand');
+@import url('http://fonts.googleapis.com/css?family=Droid+Serif');
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -35,4 +41,27 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+/*personal styles*/
+
+h3 {
+  font-family: "Oswal",bold;
+  font-size: 42px;
+  margin: 0px;
+}
+h5 {
+  font-family: 'Abel';
+  margin-top: 0px;
+  color: grey;
+}
+ul{
+  list-style-type: none;
+}
+article p {
+  text-indent: 30px;
+}
+article {
+  font-family: 'Droid serif';
+  font-size: 20px;
 }
