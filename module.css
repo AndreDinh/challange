@@ -26,6 +26,7 @@ header{
   color: grey;
   font-family: 'Abel';
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .socialMedia li:nth-child(6) {
@@ -48,18 +49,20 @@ header{
   float: right;
   clear: right;
   margin-top: 100px;
+  text-transform: uppercase;
 }
 .print p {
   float: right;
   clear: left;
-}
-
-.print p {
   color: grey;
   font-size: 15px;
   margin: 0;
 }
 
+.chocolateCake img {
+  width: 100%;
+  max-width: 100%;
+}
 .ingredients ul {
   margin: 15px;
   margin-top: 5px;
@@ -70,14 +73,13 @@ header{
   width: 900px;
   background-image: url(challenge/list-bg.png);
   background-repeat: no-repeat;
-}
-.ingredients {
   margin-bottom: 40px;
   font-family: 'Patrick Hand';
   color: #360202;
 }
 
 /*footer*/
+
 footer {
   border-image: url(challenge/hr-bg.png) 13 0 0 0 repeat;
   border-top-width: 13px;
@@ -99,6 +101,7 @@ footer {
 }
 .shareButton {
   text-align: center;
+  text-transform: uppercase;
   font-family: 'Agency FB';
   height: 25px;
   color: #ffffff;
