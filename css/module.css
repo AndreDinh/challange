@@ -2,7 +2,7 @@
 /*header*/
 
 header{
-  border-image: url(challenge/hr-bg.png) 0 0 13 0 repeat;
+  border-image: url(../img/hr-bg.png) 0 0 13 0 repeat;
   border-bottom-width: 13px;
 }
 .logo h1 {
@@ -70,8 +70,7 @@ header{
 }
 .ingredients {
   font-size: 26px;
-  width: 900px;
-  background-image: url(challenge/list-bg.png);
+  background-image: url(../img/list-bg.png);
   background-repeat: no-repeat;
   margin-bottom: 40px;
   font-family: 'Patrick Hand';
@@ -81,7 +80,7 @@ header{
 /*footer*/
 
 footer {
-  border-image: url(challenge/hr-bg.png) 13 0 0 0 repeat;
+  border-image: url(../img/hr-bg.png) 13 0 0 0 repeat;
   border-top-width: 13px;
 }
 .author {
