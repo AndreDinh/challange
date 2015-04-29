@@ -128,4 +128,7 @@ footer {
   margin-bottom: 10px;
 }
 
+.stroked{
+  text-decoration: line-through;
+}
 
